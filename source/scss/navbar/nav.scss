@@ -1,0 +1,11 @@
+nav {
+    @if $style == 1 {
+        @include nav(1px solid red);
+    }
+    @if $style == 2 {
+        @include nav(1px solid gray);
+    }
+    @if $style == 3 {
+        @include nav(1px solid purple);
+    }
+}

@@ -1,0 +1,11 @@
+.brand {
+   @if $style == 1 {
+       @include brand(red);
+   }
+   @if $style == 2 {
+       @include brand(gray);
+   }
+   @if $style == 3 {
+       @include brand(purple);
+   }
+}
