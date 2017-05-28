@@ -3,7 +3,7 @@
         @include links(red, #fff, red);
     }
     @if $style == 2 {
-        @include links(grey, black, grey);
+        @include links(grey, #fff, grey);
     }
     @if $style == 3 {
         @include links(purple, #fff, purple);
